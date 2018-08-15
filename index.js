@@ -17,3 +17,7 @@ function destructivelyRemoveFirstDriver(name) {
 function destructivelyRemoveLastDriver(name) {
   drivers.pop();
 }
+
+function appendDriver(name) {
+  return [...drivers, name]
+}
